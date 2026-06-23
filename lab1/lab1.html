@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration Form</title>
+</head>
+<body>
+
+    <h1>User Registration Form</h1>
+
+    <form>
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <table>
+                <tr>
+                    <td><label for="fname">First Name *</label></td>
+                    <td><input type="text" id="fname" name="fname"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="lname">Last Name *</label></td>
+                    <td><input type="text" id="lname" name="lname"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="dob">Date of Birth *</label></td>
+                    <td><input type="date" id="dob" name="dob"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="gender">Gender *</label></td>
+                    <td>
+                        <input type="radio" id="male" name="gender">
+                        <label for="male">Male</label>
+
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">Female</label>
+
+                        <input type="radio" id="other" name="gender">
+                        <label for="other">Other</label>
+                    </td>
+                </tr>
+            </table>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+
+            <table>
+                <tr>
+                    <td><label for="email">Email Address *</label></td>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="phone">Phone Number *</label></td>
+                    <td><input type="text" id="phone" name="phone"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="address">Address</label></td>
+                    <td>
+                        <textarea id="address" name="address" rows="3" cols="20"
+                        style="resize:none"
+                        placeholder="Enter your full address"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="country">Country</label></td>
+                    <td>
+                        <select id="country" name="country">
+                            <option value="">-- Select Country --</option>
+                            <option value="Bangladesh">Bangladesh</option>
+                            <option value="India">India</option>
+                            <option value="USA">USA</option>
+                            <option value="UK">United Kingdom</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Account Information</legend>
+
+            <table>
+                <tr>
+                    <td><label for="username">Username *</label></td>
+                    <td><input type="text" id="username" name="username"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="password">Password *</label></td>
+                    <td><input type="password" id="password" name="password"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="cpassword">Confirm Password *</label></td>
+                    <td><input type="password" id="cpassword" name="cpassword"></td>
+                </tr>
+            </table>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Preferences</legend>
+
+            <table>
+                <tr>
+                    <td>Interests</td>
+                    <td>
+                        <input type="checkbox" id="sports" name="interest">
+                        <label for="sports">Sports</label>
+
+                        <input type="checkbox" id="music" name="interest">
+                        <label for="music">Music</label>
+
+                        <br>
+
+                        <input type="checkbox" id="reading" name="interest">
+                        <label for="reading">Reading</label>
+
+                        <input type="checkbox" id="technology" name="interest">
+                        <label for="technology">Technology</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox" id="terms" name="terms">
+                        <label for="terms">
+                            I agree to the Terms and Conditions *
+                        </label>
+                    </td>
+                </tr>
+            </table>
+
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear Form">
+
+    </form>
+
+</body>
+</html>
