@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+fieldset{
+    border: 2px solid  ;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+legend{
+    background-color: #6af0e3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    width: 50%;
+    padding: 15px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="tel"]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccccccd7;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.button-group{
+    text-align: center;
+    margin-top: 25px;
+}
+
+input[type="submit"],
+input[type="reset"]{
+    width: 180px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]{
+    background-color: #f0d16a;
+    color: white;
+}
+
+input[type="reset"]{
+    background-color: #d9d9d9;
+}
